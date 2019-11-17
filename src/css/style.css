@@ -14,7 +14,7 @@ body {
   font-size: 1.6rem;
   font-family: 'Roboto', sans-serif;
   color: #fefefe;
-  background: #141414;
+  background: #fe5000;
   /*background: #16161d;*/
 }
 
@@ -46,7 +46,7 @@ Main Components
 .main-content {
   position: relative;
   min-height: 100vh;
-  background: #141414;
+  background: #fe5000;
 }
 
 .main-content:after {
