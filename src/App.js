@@ -6,8 +6,8 @@ import movies from './mocks/movies'
 import {FilterList} from './components/FilterList'
 import {MovieList} from './components/MovieList'
 import {Sidebar} from './components/Sidebar'
+import {Header} from './components/Header'
 import {filterByCategory, filterBySearch} from './libs/utils'
-import logo from './images/hackflix_logo.svg'
 
 const ALL = 'All'
 
@@ -74,9 +74,7 @@ export class App extends Component {
     return (
       <Fragment>
         {/* TODO 1: Extract the header below into it's own React component and use it here  */}
-        <header>
-          <img src={logo} alt="logo"/>
-        </header>
+        <Header/>
 
         <main className="main-content">
           {/* The FilterList component will display the list of filters and the number of movies */}
